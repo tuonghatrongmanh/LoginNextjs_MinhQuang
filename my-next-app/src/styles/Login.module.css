@@ -1,0 +1,109 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f4f8;
+    padding: 20px;
+    position: relative; /* Thêm thuộc tính này */
+  }
+  
+  .logo {
+    font-size: 32px;
+    font-weight: 700;
+    color: #2d3748;
+    position: absolute; /* Đặt logo ở vị trí tuyệt đối */
+    top: 20px; /* Căn chỉnh khoảng cách từ trên cùng */
+    left: 20px; /* Căn chỉnh khoảng cách từ bên trái */
+  }
+  
+  .loginBox {
+    background: #fff;
+    padding: 50px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .loginBox h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #2d3748;
+  }
+  
+  .loginBox p {
+    margin-bottom: 25px;
+    color: #4a5568;
+  }
+  
+  .loginForm {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .inputBox {
+    position: relative;
+    margin-bottom: 25px;
+  }
+  
+  .inputBox input[type="email"], .inputBox input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cbd5e0;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #4a5568;
+    background-color: #edf2f7;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .inputBox input[type="email"]:focus, .inputBox input[type="password"]:focus {
+    border-color: #4299e1;
+    box-shadow: 0 0 5px rgba(66, 153, 225, 0.5);
+    outline: none;
+  }
+  
+  .inputBox span {
+    display: block;
+    text-align: left;
+    color: #4299e1;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 8px;
+  }
+  
+  .inputBox span:hover {
+    text-decoration: underline;
+  }
+  
+  .loginButton {
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #4299e1;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .loginButton:hover {
+    background-color: #2b6cb0;
+    box-shadow: 0 5px 15px rgba(66, 153, 225, 0.3);
+  }
+  
+  .loginBox p a {
+    color: #4299e1;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s;
+  }
+  
+  .loginBox p a:hover {
+    color: #2b6cb0;
+    text-decoration: underline;
+  }
+  
